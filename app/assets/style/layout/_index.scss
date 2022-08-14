@@ -1,0 +1,41 @@
+.home {
+  &-banner {
+    background: url('/assets/images/bg_home.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &-col {
+      padding: 52px 86px;
+    }
+  }
+}
+
+.text-gradient {
+  background: linear-gradient(180deg, #09ACF5, #62DB54);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-border {
+  &::after {
+    content: '';
+    width: 50px;
+    border: 3px solid #62DB54;
+    display: block;
+    margin-top: 16px;
+  }
+}
+
+.home-advantage .material-icons {
+  font-size: 40px;
+}
+
+.home-card-img {
+  width: 100px;
+}
+
+li, ul {
+  list-style: none;
+  margin-bottom: 0;
+}
