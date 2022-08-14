@@ -9,6 +9,31 @@
       padding: 52px 86px;
     }
   }
+  &-advantage {
+    height: 615px;
+    &-bg {
+      &-1 {
+        background: url('/assets/images/info01.jpg');
+        background-color: rgba(0, 0, 0, .6);
+      }
+      &-2 {
+        background: url('/assets/images/info02.jpg');
+      }
+      &-3 {
+        background: url('/assets/images/info03.jpg');
+      }
+      &-4 {
+        background: url('/assets/images/info04.jpg');
+      }
+    }
+  }
+  &-join {
+    background: url('/assets/images/bg_share.jpg');
+    height: 733px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
 }
 
 .text-gradient {
@@ -27,7 +52,7 @@
   }
 }
 
-.home-advantage .material-icons {
+.home-feature .material-icons {
   font-size: 40px;
 }
 
