@@ -1,0 +1,58 @@
+---
+title: Boostrap Index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="container-fluid bg-dark pt-6">
+  <div class="container bg-light py-6">
+    <div class="row ps-8 pe-5">
+      <div class="col">
+        <p class="text-white text-center fw-bold mb-6">課程報名</p>
+        <p class="text-white mb-2">選擇付款方式</p>
+        <ul class="d-flex ps-0 mb-5">
+          <li class="py-3 px-5 border border-white rounded text-white me-3">信用卡付款</li>
+          <li class="py-3 px-5 border border-white rounded text-white me-3">超商繳款</li>
+          <li class="py-3 px-5 border border-white rounded text-white me-3">ATM轉帳</li>
+          <li class="py-3 px-5 border border-white rounded text-white me-3">12期分期付款</li>
+        </ul>
+        <p class="text-white mb-2 fw-bold">訂單資訊</p>
+        <form class="row g-3 text-secondary">
+          <div class="col-md-6">
+            <label for="name">姓名</label>
+            <input type="text" class="form-control" id="name" placeholder="請輸入姓名">
+          </div>
+          <div class="col-md-6">
+            <label for="phone">電話</label>
+            <input type="tel" class="form-control" id="phone" placeholder="請輸入電話號碼">
+          </div>
+          <div class="col-12">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="請輸入Email">
+          </div>
+          <div class="col-md-6">
+            <label for="course" class="form-label">課程</label>
+            <select id="course" class="form-select">
+              <option selected>10堂50分鐘</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="date" class="form-label">想預約的日期</label>
+          </div>
+          <div class="col-12 mb-2">
+            <label for="location">上課地點</label>
+            <input type="text" class="form-control" id="location" placeholder="請輸入上課地點">
+          </div>
+          <div class="col-md-6 align-self-center">
+            <p class="text-white">NT1600</p>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary text-white">前往結賬</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
