@@ -38,6 +38,12 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    &-card {
+      background: #fff;
+      border-radius: 24px 24px 24px 0;
+      margin-left: -80px;
+      margin-bottom: -48px;
+    }
   }
   &-article {
     &-squareRounded {
@@ -85,6 +91,11 @@
 .home-card-img {
   width: 100px;
 }
+
+.home-feedback-card img {
+  width: 100px;
+}
+
 .home-card-title {
   min-height: 60px;
 }
