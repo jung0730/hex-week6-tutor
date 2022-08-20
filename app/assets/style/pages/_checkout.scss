@@ -1,0 +1,26 @@
+main {
+  min-height: calc(100vh - 68px - 72px);
+}
+
+.checkout-card {
+  margin-right: -80px;
+  margin-top: 120px;
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-left: 12px solid $gray-dark;
+    top: 50%;
+    right: -24px;
+  }
+}
+
+.checkout-register {
+  padding-left: 110px;
+  padding-right: 32px;
+}
