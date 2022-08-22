@@ -32,6 +32,14 @@
       }
     }
   }
+  &-recommendation {
+    img {
+      width: 100px;
+    }
+    &-title {
+      min-height: 60px;
+    }
+  }
   &-feedback {
     background: url('/assets/images/bg_share.jpg');
     height: 733px;
@@ -48,15 +56,12 @@
       img {
         width: 100px;
       }
-      &-title {
-        min-height: 60px;
-      }
-      &-description {
-        min-height: 75px;
-      }
     }
   }
   &-article {
+    &-description {
+      min-height: 75px;
+    }
     &-squareRounded {
       display: none;
       width: 32px;
