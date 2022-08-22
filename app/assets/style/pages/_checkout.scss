@@ -73,6 +73,10 @@
   color: $light;
 }
 
+.form-control::placeholder {
+  color: $light;
+}
+
 .datepicker-cell:not(.disabled):hover {
   background-color: #e8e8e8;
 }
