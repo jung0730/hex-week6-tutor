@@ -1,5 +1,5 @@
 .text-gradient-custom {
-  background: linear-gradient(180deg,#09ACF5, #62DB54);
+  background: linear-gradient(180deg,#09ACF5, $primary);
   /* 將背景裁切成只有文字部分 */
   background-clip: text;
   /* 因為 Chrome 還沒有很好的支援度，所以要加上 webkit 前綴 */
@@ -8,7 +8,7 @@
 }
 
 .bg-gradient-custom {
-  background: linear-gradient(104deg,#09ACF5, #62DB54);
+  background: linear-gradient(104deg,#09ACF5, $primary);
 }
 
 @mixin border-custom {
@@ -20,7 +20,7 @@
 .border-custom-primary {
   &::after {
     @include border-custom;
-    border: 3px solid #62DB54;
+    border: 3px solid $primary;
     margin-top: 16px;
   }
 }
@@ -28,7 +28,7 @@
 .border-custom-center {
   &::after {
     @include border-custom;
-    border: 3px solid #62DB54;
+    border: 3px solid $primary;
     margin: 16px auto 0 auto;
   }
 }
@@ -36,7 +36,7 @@
 .border-custom-white {
   &::after {
     @include border-custom;
-    border: 3px solid white;
+    border: 3px solid $white;
     margin-top: 16px;
   }
 }

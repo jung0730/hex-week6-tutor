@@ -12,26 +12,35 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-light bg-gray-darker">
+    <nav class="bg-gray-darker position-relative">
       <div class="container">
-        <a class="navbar-brand d-flex align-items-end text-light" href="#">
-          <img src="./assets/images/logo2.svg" width="42" height="42" class="d-inline-block align-top me-3" alt="">
-          Coding Home|
-        </a>
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">首頁</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">課程介紹</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link d-flex" href="#">
-              <span class="material-icons me-1">
-                account_circle
-              </span>登入</a>
-          </li>
-        </ul>
+        <div class="navbar navbar-expand-lg">
+          <a class="navbar-brand d-flex align-items-end text-light" href="#">
+            <img src="./assets/images/logo2.svg" width="42" height="42" class="d-inline-block align-top me-3" alt="logo">
+            Coding Home|
+          </a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="material-icons text-primary">drag_handle</span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0 text-center">
+              <li class="nav-item px-1 py-1">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item px-1 py-1">
+                <a class="nav-link" href="#">課程介紹</a>
+              </li>
+              <li class="nav-item px-1 py-1">
+                <a class="nav-link d-flex justify-content-center" href="#">
+                  <span class="material-icons me-1">
+                    account_circle
+                  </span>登入</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </nav>
 
