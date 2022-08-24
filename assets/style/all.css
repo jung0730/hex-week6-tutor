@@ -13634,7 +13634,7 @@ nav::after {
   border-right: 12px solid transparent;
   border-top: 12px solid #202020;
   left: 50%;
-  bottom: -12px;
+  top: 100%;
 }
 
 @media (min-width: 992px) {
@@ -13644,13 +13644,12 @@ nav::after {
     border-left: 12px solid #202020;
     top: 50%;
     left: 100%;
-    right: -24px;
   }
 }
 
 @media (min-width: 992px) {
   .checkout-card {
-    margin-right: -80px;
+    margin-right: -48px;
     margin-top: 120px;
   }
 }
@@ -13668,6 +13667,7 @@ nav::after {
   .checkout-register {
     padding-left: 110px;
     padding-right: 32px;
+    margin-left: -48px;
   }
 }
 
