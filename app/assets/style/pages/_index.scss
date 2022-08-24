@@ -1,6 +1,6 @@
 .home {
   &-banner {
-    background: url('/assets/images/bg_home.jpg');
+    background: url('../images/bg_home.jpg');
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
@@ -37,17 +37,17 @@
     }
     &-bg {
       &-1 {
-        background: url('/assets/images/info01.jpg');
+        background: url('../images/info01.jpg');
         background-color: rgba(0, 0, 0, .6);
       }
       &-2 {
-        background: url('/assets/images/info02.jpg');
+        background: url('../images/info02.jpg');
       }
       &-3 {
-        background: url('/assets/images/info03.jpg');
+        background: url('../images/info03.jpg');
       }
       &-4 {
-        background: url('/assets/images/info04.jpg');
+        background: url('../images/info04.jpg');
       }
     }
   }
@@ -60,7 +60,7 @@
     }
   }
   &-feedback {
-    background: url('/assets/images/bg_share.jpg');
+    background: url('../images/bg_share.jpg');
     height: 733px;
     background-repeat: no-repeat;
     background-position: center center;
