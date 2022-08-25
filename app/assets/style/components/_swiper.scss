@@ -19,11 +19,13 @@
     padding-top: 64px;
   }
 	&-button-prev {
+		top: unset;
 		&::after {
 			content: '';
 		}
 	}
   &-button-next {
+		top: unset;
     &::after {
       content: '';
     }
