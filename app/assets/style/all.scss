@@ -3,7 +3,9 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "./helpers/base";
 @import "./helpers/utils";
-
+@import "./components/datepicker";
+@import "./components/form";
+@import "./components/swiper";
 @import './layout/index.scss';
 @import './pages/index.scss';
 @import './pages/checkout.scss';
