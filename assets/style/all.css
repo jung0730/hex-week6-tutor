@@ -13458,6 +13458,88 @@ ul, li {
   font-size: 80px;
 }
 
+.datepicker-cell:not(.disabled):hover {
+  background-color: #e8e8e8;
+}
+
+.datepicker-cell.selected, .datepicker-cell.selected:hover {
+  background-color: #e8e8e8;
+  color: #000;
+}
+
+.form-control, .form-control:focus, .form-select, .form-select:focus {
+  border-color: #fff;
+  background-color: transparent;
+  color: #C1C1C1;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #C1C1C1;
+}
+
+.form-control::-moz-placeholder {
+  color: #C1C1C1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #C1C1C1;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #C1C1C1;
+}
+
+.form-control::placeholder {
+  color: #C1C1C1;
+}
+
+.swiper-pagination {
+  position: unset;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swiper-pagination-bullet {
+  background-color: #62DB54;
+  border-radius: 50%;
+  opacity: 100%;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #62DB54;
+  border-radius: 4px;
+  width: 16px;
+}
+
+.swiper-control {
+  padding-top: 64px;
+}
+
+.swiper-button-prev {
+  top: unset;
+}
+
+.swiper-button-prev::after {
+  content: '';
+}
+
+.swiper-button-next {
+  top: unset;
+}
+
+.swiper-button-next::after {
+  content: '';
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  width: auto;
+}
+
 nav::after {
   content: '';
   height: 2px;
@@ -13712,41 +13794,6 @@ nav::after {
   .checkout button {
     width: auto;
   }
-}
-
-.form-control, .form-control:focus, .form-select, .form-select:focus {
-  border-color: #fff;
-  background-color: transparent;
-  color: #C1C1C1;
-}
-
-.form-control::-webkit-input-placeholder {
-  color: #C1C1C1;
-}
-
-.form-control::-moz-placeholder {
-  color: #C1C1C1;
-}
-
-.form-control:-ms-input-placeholder {
-  color: #C1C1C1;
-}
-
-.form-control::-ms-input-placeholder {
-  color: #C1C1C1;
-}
-
-.form-control::placeholder {
-  color: #C1C1C1;
-}
-
-.datepicker-cell:not(.disabled):hover {
-  background-color: #e8e8e8;
-}
-
-.datepicker-cell.selected, .datepicker-cell.selected:hover {
-  background-color: #e8e8e8;
-  color: #000;
 }
 
 /*# sourceMappingURL=all.css.map */
