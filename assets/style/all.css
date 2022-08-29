@@ -13392,6 +13392,10 @@ ul, li {
   list-style: none;
 }
 
+a {
+  color: inherit;
+}
+
 .text-gradient-custom {
   background: -webkit-gradient(linear, left top, left bottom, from(#09ACF5), to(#62DB54));
   background: -o-linear-gradient(top, #09ACF5, #62DB54);
@@ -13552,6 +13556,10 @@ nav::after {
   bottom: 0;
 }
 
+.navbar-toggler:focus {
+  color: transparent;
+}
+
 .home-banner {
   background: url("../images/bg_home.jpg");
   height: 100vh;
@@ -13574,6 +13582,8 @@ nav::after {
   height: 615px;
   color: #fff;
   cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home-advantage::before {
@@ -13712,18 +13722,18 @@ nav::after {
   position: absolute;
   height: 0;
   width: 0;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-top: 12px solid #202020;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-top: 24px solid #2D2D2D;
   left: 50%;
   top: 100%;
 }
 
 @media (min-width: 992px) {
   .checkout-card::after {
-    border-top: 12px solid transparent;
-    border-bottom: 12px solid transparent;
-    border-left: 12px solid #202020;
+    border-top: 24px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-left: 24px solid #2D2D2D;
     top: 50%;
     left: 100%;
   }
