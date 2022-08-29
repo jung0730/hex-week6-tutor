@@ -18,6 +18,8 @@
     height: 615px;
     color: $white;
     cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
     &::before {
       content: '';
       display: block;

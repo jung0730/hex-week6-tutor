@@ -15,15 +15,15 @@
       position: absolute;
       height: 0;
       width: 0;
-      border-left: 12px solid transparent;
-      border-right: 12px solid transparent;
-      border-top: 12px solid $gray-dark;
+      border-left: 24px solid transparent;
+      border-right: 24px solid transparent;
+      border-top: 24px solid $gray-darker;
       left: 50%;
       top: 100%;
       @include media-breakpoint-up(lg) {
-        border-top: 12px solid transparent;
-        border-bottom: 12px solid transparent;
-        border-left: 12px solid $gray-dark;
+        border-top: 24px solid transparent;
+        border-bottom: 24px solid transparent;
+        border-left: 24px solid $gray-darker;
         top: 50%;
         left: 100%;
       }
