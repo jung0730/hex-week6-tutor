@@ -9,3 +9,7 @@ nav {
     bottom: 0;
   }
 }
+
+.navbar-toggler:focus {
+  color: transparent;
+}
