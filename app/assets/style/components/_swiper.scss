@@ -1,0 +1,37 @@
+.swiper {
+  &-pagination {
+    position: unset;
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  &-pagination-bullet {
+    background-color: $primary;
+    border-radius: 50%;
+    opacity: 100%;
+  }
+  &-pagination-bullet-active {
+    background-color: $primary;
+    border-radius: 4px;
+    width: 16px;
+  }
+  &-control {
+    padding-top: 64px;
+  }
+	&-button-prev {
+		top: unset;
+		&::after {
+			content: '';
+		}
+	}
+  &-button-next {
+		top: unset;
+    &::after {
+      content: '';
+    }
+  }
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+	width: auto;
+}

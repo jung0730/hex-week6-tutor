@@ -69,22 +69,3 @@
     }
   }
 }
-
-.form-control, .form-control:focus, .form-select, .form-select:focus {
-  border-color: $white;
-  background-color: transparent;
-  color: $light;
-}
-
-.form-control::placeholder {
-  color: $light;
-}
-
-.datepicker-cell:not(.disabled):hover {
-  background-color: #e8e8e8;
-}
-
-.datepicker-cell.selected, .datepicker-cell.selected:hover {
-  background-color: #e8e8e8;
-  color: $black;
-}

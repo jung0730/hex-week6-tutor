@@ -1,0 +1,9 @@
+.form-control, .form-control:focus, .form-select, .form-select:focus {
+  border-color: $white;
+  background-color: transparent;
+  color: $light;
+}
+
+.form-control::placeholder {
+  color: $light;
+}
